@@ -1,0 +1,73 @@
+body {
+    background-image: url('../images/soft_kill.png');
+    background-repeat: repeat; 
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: palevioletred;
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 3%;
+    text-decoration: underline;
+}
+
+.instrGroup {
+    border: 2px inset lightgray;
+    border-style: inset;
+    margin: 2% 20% 2% 20%;
+    padding: 1% 2% 1% 2%;
+    color: lightgray;
+    
+}
+.instructions {
+    list-style-type: circle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left; 
+    margin: 1% 0 1% 0;
+    font-size: 1.1em;
+}
+
+.instructionTitle {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    color: lightgray;
+}
+
+#targetNumber {
+    color: rgb(243, 243, 148);
+    font-size: 2.5em;
+    float: left;   
+    margin: 0 0 1% 35%;
+    padding: 1% 1% 2.3% 1%;
+    
+}
+
+#winLossScore {
+    color: rgb(243, 243, 148);
+    font-size: 2.5em;    
+    margin-left: 35%;
+    padding: 1%;   
+    margin-top: 1.5%; 
+}
+
+#crystals {
+    clear: both;
+    display: block;
+    margin-left: 36.5%;
+}
+#currentScore {
+    color: rgb(243, 243, 148);
+    font-size: 2.5em;
+    float: left;   
+    margin: 2% 0 0 35%;
+    padding: 1% 1% 0 1%;
+} #difference {
+    clear: both;
+    color: rgb(243, 243, 148);
+    font-size: 1.8em;
+    display:block;
+    margin-left: 40%;
+    padding: 1% 1% 0 1%;
+}

@@ -1,0 +1,21 @@
+#trainTitle {
+    font-size: 350%;
+}
+
+.tableTitle {
+    font-weight: bold;
+    font-size: 115%;
+    background-color: black;
+    color: white;
+}
+
+#paypal-button1 {
+    float: left;
+}
+#paypal-button2 {
+    float: left;
+}
+
+#paypal-button3 {
+    float: left;
+}

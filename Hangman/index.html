@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" ; type="text/css" href="assets/css/style.css">
+    <title>Eric's Hangman</title>
+</head>
+
+<body>
+    <h1>Welcome to Eric's Hangman</h1>
+
+    <img src="assets/images/gallows.png" id="gallow">
+    
+
+    <div class="container" id="info">
+       
+
+        <div class="row" id="top">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+                <h6 id="blankWord"></h6>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+                <h6 id="wrongGuesses">Wrong Guesses: </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+                <h6 id="remainingGuesses">Remaining Guesses: </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+                <h6 id="totalWins">Total Wins: </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+                <h6 id="totalLosses">Total Losses: </h6>
+            </div>
+        </div>
+
+    </div>
+    <img src="assets/images/blackfootball.png" id="football">
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
